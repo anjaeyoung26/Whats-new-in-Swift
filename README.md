@@ -12,5 +12,6 @@
 - [Keynote](./WWDC22/keynote-ios.md)
 
 ### What's new in Swift 5.7
-- [Multi-statement closure type inference](./WWDC22/multi-statement-closure-type-inference.md)
 - [if let shorthand](./WWDC22/if-let-shorthand.md)
+- [Multi-statement closure type inference](./WWDC22/multi-statement-closure-type-inference.md)
+- [Type inference from default expressions](./WWDC22/type-inference-from-default-expressions.md)
