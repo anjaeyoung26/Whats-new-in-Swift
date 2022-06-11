@@ -1,6 +1,6 @@
 ## Implicitly opened existentials
 
-[SE-0352](https://github.com/apple/swift-evolutions/blob/main/proposals/0352-implicit-open-existentials.md)는 Swift가 프로토콜을 사용하여 일반 함수를 호출할 수 있는 범위를 늘려서 이전에 존재했던 다소 이상한 장벽을 제거한다. 예를 들어, 다음은 모든 종류의 `Numeric`으로 작동할 수 있는 generic 함수이다:
+[SE-0352](https://github.com/apple/swift-evolutions/blob/main/proposals/0352-implicit-open-existentials.md)는 Swift가 프로토콜을 사용하여 일반 함수를 호출할 수 있는 범위를 늘려서 이전에 존재했던 다소 이상한 장벽을 제거한다. 예를 들어, 다음은 모든 종류의 `Numeric`으로 작동할 수 있는 *generic* 함수다:
 
 ```swift
 func double<T: Numeric>(_ number: T) -> T {
@@ -22,9 +22,9 @@ for number in numbers {
 }
 ```
 
-Swift는 다음과 같은 *existential types*를 호출한다: 실제로 사용 중인 데이터 타입은 상자 안에 있으며, 우리가 그 상자에서 메소드를 호출할 때 Swift는 상자 안의 데이터에 대한 메소드를 암시적으로 호출한다. 
+- Swift는 다음과 같은 *existential types*를 호출한다: 실제로 사용 중인 데이터 타입은 상자 안에 있으며, 우리가 그 상자에서 메소드를 호출할 때 Swift는 상자 안의 데이터에 대한 메소드를 암시적으로 호출한다. 
 
-SE-0352는 이를 함수 호출에도 확장한다: for loop의 `number` 값은 existential type(`Double`, `Float`, `Int`를 포함하는 상자)이지만, Swift는 상자 내부에 값을 전송하여 generic `double()` 함수에 전달할 수 있다.
+- SE-0352는 이를 함수 호출에도 확장한다: for-loop의 `number` 값은 *existential type*(`Double`, `Float`, `Int`를 포함하는 상자)이지만, Swift는 상자 내부에 값을 전송하여 *generic* `double()` 함수에 전달할 수 있다.
 
 &nbsp;
 

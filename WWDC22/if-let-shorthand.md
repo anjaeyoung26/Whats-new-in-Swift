@@ -1,6 +1,6 @@
 ## if let shorthand
 
-[SE-0345](https://github.com/apple/swift-evolution/blob/main/proposals/0345-if-let-shorthand.md)는 동일한 이름의 섀도우 변수로 옵셔널 언래핑하기 위한 새로운 단축 구문을 도입했다. 이는 다음과 같은 코드를 작성할 수 있음을 의미한다.
+[SE-0345](https://github.com/apple/swift-evolution/blob/main/proposals/0345-if-let-shorthand.md)는 동일한 이름의 섀도우 변수로 옵셔널 언래핑하기 위한 새로운 단축 구문을 도입했다. 이는 다음과 같은 코드를 작성할 수 있음을 의미한다:
 
 ```swift
 var name: String?

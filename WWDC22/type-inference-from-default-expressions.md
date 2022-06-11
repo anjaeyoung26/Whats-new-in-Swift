@@ -1,6 +1,6 @@
 ## Type inference from default expressions
 
-[SE-0347](https://github.com/apple/swift-evolution/blob/main/proposals/0347-type-inference-from-default-exprs.md)는 generic 매개변수 타입과 함께 기본 값을 사용하는 Swift의 기능을 확장한다. 이전에 Swift는 generic 타입이나 함수가 있는 경우 컴파일러가 오류를 발생시켰지만, 이제 기본 표현식에 대한 구체적인 타입을 제공할 수 있다. 예를 들어, 모든 종류의 `Sequence`에서 무작위 원소의 개수를 반환하는 함수가 있을 수 있다.
+[SE-0347](https://github.com/apple/swift-evolution/blob/main/proposals/0347-type-inference-from-default-exprs.md)는 *generic* 매개변수 타입과 함께 기본 값을 사용하는 Swift의 기능을 확장한다. 이전에 Swift는 *generic* 타입이나 함수가 있는 경우 컴파일러가 오류를 발생시켰지만, 이제 기본 표현식에 대한 구체적인 타입을 제공할 수 있다. 예를 들어, 모든 종류의 `Sequence`에서 무작위 원소의 개수를 반환하는 함수가 있다:
 
 ```swift
 func drawLotto1<T: Sequence>(from options: T, count: Int = 7) -> [T.Element] {
