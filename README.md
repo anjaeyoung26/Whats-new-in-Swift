@@ -14,6 +14,7 @@
 **What's new in Swift 5.7**
 - [if let shorthand](./WWDC22/if-let-shorthand.md)
 - [Multi-statement closure type inference](./WWDC22/multi-statement-closure-type-inference.md)
+- [Lightweight same-type requirements for primary associated types](./WWDC22/lightweight-same-type-requirements-for-primary-associated-types.md)
 - [Opaque parameter declarations](./WWDC22/opaque-parameter-declarations.md)
 - [Struct opaque result types](./WWDC22/struct-opaque-result-types.md)
 - [Type inference from default expressions](./WWDC22/type-inference-from-default-expressions.md)
