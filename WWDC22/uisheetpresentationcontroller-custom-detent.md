@@ -1,4 +1,4 @@
-## Custom detent
+## UISheetPresentationController - Custom detent
 
 [UISheetPresentationController](https://github.com/anjaeyoung26/TIL/blob/main/Swift/uisheetpresentationcontroller.md)는 iOS 15 버전부터 사용할 수 있는 시트 스타일의 컨트롤러이다. 기존에는 `Detent.medium()`, `Detent.large()` 두 가지 종류의 *Detent*만 존재해서 시트를 정해진 높이로만 사용할 수 있었다. iOS 16 버전부터 사용자 정의 *Detent*를 통해 원하는 높이를 갖는 시트를 사용할 수 있다. 아래의 메서드를 통해 사용자 정의 *Detent*를 생성한다.
 
