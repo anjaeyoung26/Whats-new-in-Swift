@@ -23,3 +23,4 @@
 [**What's new in UIKit**](https://developer.apple.com/videos/play/wwdc2022/10068/)
 - [UIPageControl](./WWDC22/uipagecontrol.md)
 - [UISheetPresentationController - Custom detent](./WWDC22/uisheetpresentationcontroller-custom-detent.md)
+- [Variable Symbols](./WWDC22/variable-symbols.md)
