@@ -8,8 +8,6 @@
 ---
 ### **WWDC22**
 
-- [Keynote](./WWDC22/keynote-ios.md)
-
 [**What's new in Swift 5.7**](https://developer.apple.com/videos/play/wwdc2022/110354/)
 - [if let shorthand](./WWDC22/if-let-shorthand.md)
 - [Implicitly opended existentials](./WWDC22/implicitly-opened-existentials.md)
