@@ -8,7 +8,7 @@ func double<T: Numeric>(_ number: T) -> T {
 }
 ```
 
-만약 `double(5)`와 같이 직접적으로 호출하는 경우, Swift 컴파일러는 함수를 전문화하도록 선택할 수 있다. 이는 성능상의 이유로 `Int`를 직접 받아들이는 버전을 효과적으로 생성한다. 그러나 SE-0352는 데이터가 다음과 같이 프로토콜을 준수한다는 사실만 알고 있을 때, 해당 함수를 호출할 수 있도록 허용한다.
+만약 `double(5)`와 같이 직접적으로 호출하는 경우, Swift 컴파일러는 함수를 전문화 하도록 선택할 수 있다. 이는 성능상의 이유로 `Int`를 직접 받아들이는 버전을 효과적으로 생성한다. 그러나 SE-0352는 데이터가 다음과 같이 프로토콜을 준수한다는 사실만 알고 있을 때, 해당 함수를 호출할 수 있도록 허용한다.
 
 ```swift
 let first = 1
@@ -26,9 +26,7 @@ for number in numbers {
 
 - SE-0352는 이를 함수 호출에도 확장한다: for-loop의 `number` 값은 *existential type*(`Double`, `Float`, `Int`를 포함하는 상자)이지만, Swift는 상자 내부에 값을 전송하여 *generic* `double()` 함수에 전달할 수 있다.
 
-&nbsp;
-
-하지만 아래와 같은 함수는 작동하지 않는다:
+하지만 아래와 같은 함수는 작동하지 않는다. 왜냐하면 Swift의 컴파일러가 두 값이 `==`을 사용하여 비교할 수 없다는 것을 컴파일 타입에 확인할 수 없기 때문이다.
 
 ```swift
 func areEqual<T: Numeric>(_ a: T, _ b: T) -> Bool {
@@ -37,5 +35,3 @@ func areEqual<T: Numeric>(_ a: T, _ b: T) -> Bool {
 
 print(areEqual(numbers[0], numbers[1]))
 ```
-
-왜냐하면 Swift의 컴파일러가 두 값이 `==`을 사용하여 비교할 수 없다는 것을 컴파일 타입에 확인할 수 없기 때문이다.

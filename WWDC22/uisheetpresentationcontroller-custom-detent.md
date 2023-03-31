@@ -13,27 +13,35 @@ class Detent : NSObject {
 
 위 메서드의 매개변수가 어떤 것인지 살펴보자. 
 
-1. `UISheetPresentationController.Detent.Identifier`는 `large`, `medium`과 같이 각 *Detent*에 대한 식별자이다. 사용자 정의 *Detent*를 사용하기 위해, 이를 위한 식별자를 정의해야 한다.
+&nbsp;
+### UISheetPresentationController.Detent.Identifier
 
-    ```swift
-    extension UISheetPresentationController.Detent.Identifier {
-      static let myCustom = UISheetPresentationController.Detent.Identifier("myCustom")
-    }
-    ```
+`large`, `medium`과 같이 각 *Detent*에 대한 식별자이다. 사용자 정의 *Detent*를 사용하기 위해, 이를 위한 식별자를 정의해야 한다.
 
-2. `UISheetPresentationControllerDetentResolutionContext`는 사용자 정의 *Detent*의 최대 높이를 설정하기 위한 컨텍스트이다. 컨텍스트는 `maximumDetentValue`라는 프로퍼티를 갖고 있는데, 이는 `Detent.large()`와 동일한 높이를 의미한다. 아래는 0 ~ 1의 범위를 갖는 슬라이더의 값에 따라 `maximumDetentValue`를 설정하는 코드이다.
+```swift
+extension UISheetPresentationController.Detent.Identifier {
+  static let myCustom = UISheetPresentationCotroller.Detent.Identifier("myCustom")
+}
+```
 
-    ```swift
-    sheet.detents = [
-      .custom(identifier: .myCustom) { context in 
-        context.maximumDetentValue * CGFloat(self.slider.value)
-      }
-    ]
-    ```
+&nbsp;
+### UISheetPresentationControllerDetentResolutionContext
 
-    
+사용자 정의 *Detent*의 최대 높이를 설정하기 위한 컨텍스트다. 컨텍스트는 `maximumDetentValue`라는 프로퍼티를 갖고 있는데, 이는 `Detent.large()`와 동일한 높이를 의미한다.
 
-    <p align="center">
-    <img src="https://user-images.githubusercontent.com/61190690/176196378-1c7035c1-dbb7-4992-bbfc-9e16261ce4bc.gif" height="400">
-    </p>
+```swift
+sheet.detents = [
+  .custom(identifier: .myCustom) { context in 
+    context.maximumDetentValue * CGFloat(self.slider.value)
+  }
+]
+```
+
+위 코드는 0 ~ 1의 범위를 갖는 슬라이더의 값에 따라 `maximumDetentValue`를 설정한다.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61190690/176196378-1c7035c1-dbb7-4992-bbfc-9e16261ce4bc.gif" height="350">
+</p>
+
+슬라이더의 값에 따라 시트의 높이가 번경됨을 확인할 수 있다.
 

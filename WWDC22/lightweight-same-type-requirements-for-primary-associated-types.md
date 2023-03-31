@@ -15,8 +15,6 @@ protocol Cache<Content> {
 
 `Cache` 는 프로토콜과 *generic type* 둘 다 해당되는 것 처럼 보인다. 일치하는 타입이 채워야 하는 일종의 구멍을 `associatedtype`으로 선언했지만, <> 괄호 안에 해당 타입을 나열한다. <> 안의 부분은 Swift의 *primary associated type* 이라고 부르며, 이는 모든 `associatedtype`이 <> 안에 선언되어야 하는 게 아니라는 점이 중요하다. 대신에, dictionary의 키/값의 타입 또는 `Identifiable`의 식별자 타입과 같이 호출 코드와 연관되어 있는 항목을 나열해야 한다.
 
-&nbsp;
-
 이 시점에서 이전과 같이 프로토콜을 사용할 수 있다. 캐시하려는 데이터를 생성한 뒤, 다음과 같이 프로토콜을 준수하는 구체적인 캐시 타입을 생성할 수 있다:
 
 ```swift
