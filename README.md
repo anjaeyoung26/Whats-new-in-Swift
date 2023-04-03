@@ -29,3 +29,4 @@
 
 **What's new in Swift 5.8**
 - [[SE-0376] Function Back Deployment](https://jaeyoungan.medium.com/swift-5-8-backdeployed-692658fbfaa5)
+- [[SE-0365] Allow implicit self for weak self captures, after self is unwrapped](https://jaeyoungan.medium.com/swift-5-8-implicit-self-5e0ebe7f175b)
