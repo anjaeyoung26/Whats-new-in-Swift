@@ -1,6 +1,6 @@
 ## Variable Symbols
 
-*SF Symbols*는 WWDC21에서 *Hierarchical*, *Palette* 렌더링을 지원하기 시작하여 심볼 이미지가 여러 가지 색상으로 표시될 수 있다. WWDC22는 0~1의 범위를 갖는 값을 설정하여 이미지의 색상을 단계적으로 표시할 수 있는 *Variable Symbols*를 소개했다. 자세한 내용은 [Adopt Variable Color in SFSymbols](https://developer.apple.com/videos/play/wwdc2022/10158/) 에서 살펴볼 수 있다.
+*SF Symbols*는 WWDC21에서 *Hierarchical*, *Palette* 렌더링을 지원하기 시작하여 심볼 이미지가 여러 색상으로 표시될 수 있다. WWDC22는 0~1의 범위의 값으로 이미지의 색상을 단계적으로 표시할 수 있는 *Variable Symbols*를 소개했다. 자세한 내용은 [Adopt Variable Color in SFSymbols](https://developer.apple.com/videos/play/wwdc2022/10158/) 에서 살펴볼 수 있다.
 
 ```swift
 @objc private func didChangeSliderValue(sender: UISlider) {
