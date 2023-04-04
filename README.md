@@ -34,4 +34,5 @@
 - [[SE-0375] Opening existential arguments to optional parameters](./WWDC23/opening-existential-arguments-to-optional-parameters.md)
 - [[SE-0367] Conditional compilation for attributes](./WWDC23/conditional-compilation-for-attributes.md)
 - [[SE-0369] Add CustomDebugStringConvertible conformance to AnyKeyPath](./WWDC23/add-customdebugstringconvertible-conformance-to-anykeypath.md)
+- [[SE-0372] Document sorting as stable](./WWDC23/document-sorting-as-stable.md)
 - [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
