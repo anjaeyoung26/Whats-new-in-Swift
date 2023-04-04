@@ -1,6 +1,6 @@
 ## Implicitly opened existentials
 
-[SE-0352](https://github.com/apple/swift-evolutions/blob/main/proposals/0352-implicit-open-existentials.md)는 Swift가 프로토콜을 사용하여 일반 함수를 호출할 수 있는 범위를 늘려서 이전에 존재했던 다소 이상한 장벽을 제거한다. 예를 들어, 다음은 모든 종류의 `Numeric`으로 작동할 수 있는 *generic* 함수다:
+[SE-0352](https://github.com/apple/swift-evolution/blob/main/proposals/0352-implicit-open-existentials.md)는 Swift가 프로토콜을 사용하여 일반 함수를 호출할 수 있는 범위를 늘려서 이전에 존재했던 다소 이상한 장벽을 제거한다. 예를 들어, 다음은 모든 종류의 `Numeric`으로 작동할 수 있는 *generic* 함수다:
 
 ```swift
 func double<T: Numeric>(_ number: T) -> T {
