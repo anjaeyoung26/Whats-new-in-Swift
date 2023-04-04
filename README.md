@@ -33,4 +33,5 @@
 - [[SE-0274] Concise magic file names](https://jaeyoungan.medium.com/swift-5-8-file-cb1f5e7fdf5b) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
 - [[SE-0375] Opening existential arguments to optional parameters](./WWDC23/opening-existential-arguments-to-optional-parameters.md)
 - [[SE-0367] Conditional compilation for attributes](./WWDC23/conditional-compilation-for-attributes.md)
+- [[SE-0369] Add CustomDebugStringConvertible conformance to AnyKeyPath](./WWDC23/add-customdebugstringconvertible-conformance-to-anykeypath.md)
 - [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
