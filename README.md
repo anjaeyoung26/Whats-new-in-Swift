@@ -32,3 +32,4 @@
 - [[SE-0365] Allow implicit self for weak self captures, after self is unwrapped](https://jaeyoungan.medium.com/swift-5-8-implicit-self-5e0ebe7f175b) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
 - [[SE-0274] Concise magic file names](https://jaeyoungan.medium.com/swift-5-8-file-cb1f5e7fdf5b) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
 - [[SE-0375] Opening existential arguments to optional parameters](./WWDC23/opening-existential-arguments-to-optional-parameters.md)
+- [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
