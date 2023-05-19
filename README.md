@@ -35,4 +35,5 @@
 - [[SE-0367] Conditional compilation for attributes](./WWDC23/conditional-compilation-for-attributes.md)
 - [[SE-0369] Add CustomDebugStringConvertible conformance to AnyKeyPath](./WWDC23/add-customdebugstringconvertible-conformance-to-anykeypath.md)
 - [[SE-0372] Document sorting as stable](./WWDC23/document-sorting-as-stable.md)
+- [[SE-0362] Piecemeal adoption of upcoming language improvements](https://jaeyoungan.medium.com/swift-5-8-hasfeature-396d86105601) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
 - [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
