@@ -25,7 +25,6 @@
 
 ---
 ### **WWDC23**
-<sub>June 5 ~ June 9 (KST 2AM on June 6)</sub>
 
 **What's new in Swift 5.8**
 - [[SE-0376] Function Back Deployment](https://jaeyoungan.medium.com/swift-5-8-backdeployed-692658fbfaa5) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
@@ -37,3 +36,7 @@
 - [[SE-0372] Document sorting as stable](./WWDC23/document-sorting-as-stable.md)
 - [[SE-0362] Piecemeal adoption of upcoming language improvements](https://jaeyoungan.medium.com/swift-5-8-hasfeature-396d86105601) <img src="https://user-images.githubusercontent.com/61190690/167519208-27bbbfbe-700f-49d3-a517-579cca72817b.png" width="20" align="center">
 - [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
+
+[**What's new in Swift 5.9**](https://developer.apple.com/videos/play/wwdc2023/10164/)
+
+[**What's new in UIKit**](https://developer.apple.com/videos/play/wwdc2023/10055/)
