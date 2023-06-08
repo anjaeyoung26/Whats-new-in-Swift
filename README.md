@@ -38,5 +38,6 @@
 - [Collection downcasts in cast patterns](./WWDC23/collection-downcasts-in-cast-patterns.md)
 
 [**What's new in Swift 5.9**](https://developer.apple.com/videos/play/wwdc2023/10164/)
+- [[SE-0380] Using if/else and switch statements as expressions](./WWDC23/using-if-else-and-switch-statements-as-expressions.md)
 
 [**What's new in UIKit**](https://developer.apple.com/videos/play/wwdc2023/10055/)
