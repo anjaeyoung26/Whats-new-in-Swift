@@ -18,7 +18,7 @@ for number in numbers {
 }
 ```
 
-하지만 Swift 5.7에서 파라미터를 옵셔널이면 동작하지 않는 성가신 문제가 있습니다.
+하지만 Swift 5.7에서 파라미터를 옵셔널이면 동작하지 않는 성가신 문제가 있다.
 
 ```swift
 func optionalDouble<T: Numeric>(_ number: T?) -> T {
@@ -31,4 +31,4 @@ for number in numbers {
 }
 ```
 
-Swift 5.8은 기능을 확장해서 이러한 문제를 해결했습니다.
+Swift 5.8은 기능을 확장해서 이러한 문제를 해결했다.
