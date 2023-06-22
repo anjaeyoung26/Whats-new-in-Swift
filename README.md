@@ -35,3 +35,6 @@
 &nbsp;
 # What's new in Swift 5.9
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
+
+## What's new in Xcode 15
+- [Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
