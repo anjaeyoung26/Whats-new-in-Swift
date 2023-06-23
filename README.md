@@ -37,5 +37,6 @@
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
 
 ## What's new in Xcode 15
+- [Bookmark Navigator](./swift5.9/bookmark-navigator.md)
 - [Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
 - [Symbols for the asset catalog](./swift5.9/symbols-for-the-asset-catalog.md)
