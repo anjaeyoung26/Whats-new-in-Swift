@@ -35,5 +35,6 @@
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
 - [[Xcode 15] Bookmark Navigator](./swift5.9/bookmark-navigator.md)
+- [[Xcode 15] #Preview macro](./swift5.9/preview-macro.md)
 - [[Xcode 15] Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
 - [[Xcode 15] Symbols for the asset catalog](./swift5.9/symbols-for-the-asset-catalog.md)
