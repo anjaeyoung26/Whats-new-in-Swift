@@ -38,3 +38,4 @@
 
 ## What's new in Xcode 15
 - [Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
+- [Symbols for the asset catalog](./swift5.9/symbols-for-the-asset-catalog.md)
