@@ -34,6 +34,7 @@
 # Swift 5.9
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
 - [[SE-0382], [SE-0389], [SE-0397] Macros](./swift5.9/macros.md)
+- [Macros attribute](./swift5.9/macros-attribute.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
 - [[Xcode 15] Bookmark Navigator](./swift5.9/bookmark-navigator.md)
 - [[Xcode 15] #Preview macro](./swift5.9/preview-macro.md)
