@@ -39,6 +39,7 @@
 - [[SE-0377], [SE-0390] 1. Noncopyable structs and enums](./swift5.9/noncopyable-structs-and-enums.md)
 - [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./swift5.9/suppressing-deinit-in-a-consuming-method.md)
 - [[SE-0366] `consume` operator to end the lifetime of a variable binding](./swift5.9/consume-operator-to-end-the-lifetime-of-a-variable-binding.md)
+- [[SE-0374] Add `sleep(for:)` to Clock](./swift5.9/add-sleepfor-to-clock.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
 - [[Xcode 15] Bookmark Navigator](./swift5.9/bookmark-navigator.md)
 - [[Xcode 15] #Preview macro](./swift5.9/preview-macro.md)
