@@ -82,7 +82,8 @@ consuming func foo() { }
 func foo(f: consuming () -> ()) { } // X
 ```
 
-`consuming`은 소유권을 가져왔으니, 개체를 더 이상 사용하지 않을 때 `deinit` 할 책임을 갖는다. Noncopyable 타입은 클래스와 같이 `deinit`을 제공할 수 있지만, `discard` 혹은 `consume self`를 사용해서 명시적으로 `deinit`을 트리거할 수 있다. 해당 내용은 [Suppressing `deinit` in a `consuming` method](./suppressing-deinit-in-a-consuming-method.md)에 정리할 예정이다.
+- [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./suppressing-deinit-in-a-consuming-method.md): `consuming`은 소유권을 가져왔으니, 개체를 더 이상 사용하지 않을 때 `deinit` 할 책임을 갖는다. Noncopyable 타입은 클래스와 같이 `deinit`을 제공할 수 있지만, `discard` 혹은 `consume self`를 사용해서 명시적으로 `deinit`을 트리거할 수 있다.
+- [[SE-0366] `consume` operator to end the lifetime of a variable binding](./consume-operator-to-end-the-lifetime-of-a-variable-binding.md): `consuming`의 개념을 복사 가능한 타입의 로컬 변수 및 상수로 확장하는 `consume` 연산자가 있다.
 
 &nbsp;
 ## 참고 문헌

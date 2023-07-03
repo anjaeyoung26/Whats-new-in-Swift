@@ -1,0 +1,1 @@
+## `consume` operator to end the lifetime of a variable binding
