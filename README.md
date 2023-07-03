@@ -14,6 +14,7 @@
 - [[SE-0328] Struct opaque result types](./swift5.7/struct-opaque-result-types.md)
 - [[SE-0347] Type inference from default expressions](./swift5.7/type-inference-from-default-expressions.md)
 - [[SE-0309] Unlock existentials for all protocols](./swift5.7/unlock-existentials-for-all-protocols.md)
+- [[SE-0329] Clock, Instant, and Duration](./swift5.7/clock-instant-and-duration.md)
 - [[UIKit] UIPageControl](./swift5.7/uipagecontrol.md)
 - [[UIKit] UISheetPresentationController custom detent](./swift5.7/uisheetpresentationcontroller-custom-detent.md)
 - [[UIKit] Variable Symbols](./swift5.7/variable-symbols.md)
