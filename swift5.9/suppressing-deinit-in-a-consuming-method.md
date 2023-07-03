@@ -1,0 +1,1 @@
+## Suppressing `deinit` in a `consuming` method
