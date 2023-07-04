@@ -42,6 +42,7 @@
 - [[SE-0374] Add `sleep(for:)` to Clock](./swift5.9/add-sleepfor-to-clock.md)
 - [[UIKit] Default status bar style](./swift5.9/default-status-bar-style.md)
 - [[UIKit] Internationalization](./swift5.9/internationalization.md)
+- [[UIKit] Represent fractional page progress](./swift5.9/represent-fractional-page-progress.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
 - [[Xcode 15] Bookmark Navigator](./swift5.9/bookmark-navigator.md)
 - [[Xcode 15] #Preview macro](./swift5.9/preview-macro.md)
