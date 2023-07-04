@@ -8,6 +8,9 @@
 
 시스템은 뷰가 `layoutSubviews()`를 실행할 때마다 `viewWillLayoutSubviews` 및 `viewDidLayoutSubviews`와 같은 레이아웃 메서드를 호출한다. 이는 뷰가 transition 하거나 또는 화면에 표시되는 동안 언제든지 발생할 수 있다. 하지만 `viewIsAppearing`은 `viewWillLayoutSubviews`, `viewDidLayoutSubviews`와 다르게 `viewIsAppearing`은 뷰 컨트롤러의 라이프 사이클 동안 한 번만 호출된다.
 
+&nbsp;
+## viewWillAppear과의 차이점
+
 |State at callback time|viewWillAppear|viewIsAppearing|
 |------|---|---|
 |Transition coordinator available for adding alongside animations|✓|✘|
