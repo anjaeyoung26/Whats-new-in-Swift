@@ -41,6 +41,7 @@
 - [[SE-0366] `consume` operator to end the lifetime of a variable binding](./swift5.9/consume-operator-to-end-the-lifetime-of-a-variable-binding.md)
 - [[SE-0374] Add `sleep(for:)` to Clock](./swift5.9/add-sleepfor-to-clock.md)
 - [[UIKit] Default status bar style](./swift5.9/default-status-bar-style.md)
+- [[UIKit] Empty states](./swift5.9/empty-states.md)
 - [[UIKit] Internationalization](./swift5.9/internationalization.md)
 - [[UIKit] Represent fractional page progress](./swift5.9/represent-fractional-page-progress.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
