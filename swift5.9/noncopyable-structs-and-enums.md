@@ -46,13 +46,15 @@ func greet(_ user: borrowing User) {
 createAndGreetUser()
 ```
 
-`borrowing`은 현재 소유자로부터 값의 소유권을 빼앗지 않는다. 따라서 `greet` 함수 내에서 `user` 파라미터의 값을 변경하는 것이 허용되지 않고 read-only 권한만 얻는다. 메서드의 파라미터 뿐만 아니라, 메서드 자체에도 `borrowing` modifier를 사용할 수 있다. `borrowing` 메서드는 `self` 매개변수의 소유권을 빌려서 사용한다.
+`borrowing`은 현재 소유자로부터 값의 소유권을 빼앗지 않는다. 따라서 `greet` 함수 내에서 `user` 파라미터의 값을 변경하는 것이 허용되지 않고 read-only 권한만 얻는다.
 
 ```swift
 let f: (borrowing Foo) -> Void = { a in a.foo() }
 borrowing func foo() { }
 ...
 ```
+
+메서드의 파라미터 뿐만 아니라, 메서드 자체에도 `borrowing` modifier를 사용할 수 있다. `borrowing` 메서드는 `self` 매개변수의 소유권을 빌려서 사용한다.
 
 &nbsp;
 ## Consuming
@@ -73,7 +75,7 @@ func greet(_ user: consuming User) {
 createAndGreetUser()
 ```
 
-위 코드에서 `print` 구문은 컴파일 에러가 발생한다. 왜냐하면 `greet` 함수에서 `newUser`에 대한 소유권을 가져가서 더 이상 사용할 수 없어졌기 때문이다. 그리고 `greet` 함수는 소유권을 가져왔으므로 `user`의 값을 변경하는 것이 허용된다. `consuming` modifier도 메서드에 붙일 수 있지만, `borrowing`과 다르게 nonescaping 클로저에는 붙일 수 없다. nonescaping 클로저는 항상 `borrowing`하게 동작하기 때문이다.
+위 코드에서 `print` 구문은 컴파일 에러가 발생한다. 왜냐하면 `greet` 함수에서 `newUser`에 대한 소유권을 가져가서 더 이상 사용할 수 없기 때문이다. 그리고 `greet` 함수는 소유권을 가져왔으므로 `user`의 값을 변경하는 것이 허용된다.
 
 ```swift
 let f: (consuming Foo) -> Void = { a in a.foo() }
@@ -81,6 +83,8 @@ consuming func foo() { }
 
 func foo(f: consuming () -> ()) { } // X
 ```
+
+`consuming` modifier도 메서드에 붙일 수 있지만, `borrowing`과 다르게 nonescaping 클로저에는 붙일 수 없다. nonescaping 클로저는 항상 `borrowing`하게 동작하기 때문이다.
 
 - [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./suppressing-deinit-in-a-consuming-method.md): `consuming`은 소유권을 가져왔으니, 개체를 더 이상 사용하지 않을 때 `deinit` 할 책임을 갖는다. Noncopyable 타입은 클래스와 같이 `deinit`을 제공할 수 있지만, `discard` 혹은 `consume self`를 사용해서 명시적으로 `deinit`을 트리거할 수 있다.
 - [[SE-0366] `consume` operator to end the lifetime of a variable binding](./consume-operator-to-end-the-lifetime-of-a-variable-binding.md): `consuming`의 개념을 복사 가능한 타입의 로컬 변수 및 상수로 확장하는 `consume` 연산자가 있다.
