@@ -34,11 +34,11 @@
 &nbsp;
 # Swift 5.9
 - [[SE-0374] Add `sleep(for:)` to Clock](./swift5.9/add-sleepfor-to-clock.md)
-- [[SE-0366] `consume` operator to end the lifetime of a variable binding](./swift5.9/consume-operator-to-end-the-lifetime-of-a-variable-binding.md)
 - [[SE-0382], [SE-0389], [SE-0397] 1. Macros](./swift5.9/macros.md)
-- [[SE-0382], [SE-0389], [SE-0397] 2. Macros attribute](./swift5.9/macros-attribute.md)
+- [[SE-0382], [SE-0389], [SE-0397] 2. Macros attribute](./swift5.9/macros-attribute.md)(WIP)
 - [[SE-0377], [SE-0390] 1. Noncopyable structs and enums](./swift5.9/noncopyable-structs-and-enums.md)
-- [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./swift5.9/suppressing-deinit-in-a-consuming-method.md)
+- [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./swift5.9/suppressing-deinit-in-a-consuming-method.md)(WIP)
+- [[SE-0366] 3. `consume` operator to end the lifetime of a variable binding](./swift5.9/consume-operator-to-end-the-lifetime-of-a-variable-binding.md)(WIP)
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
 - [[UIKit] Empty states](./swift5.9/empty-states.md)
 - [[UIKit] Default status bar style](./swift5.9/default-status-bar-style.md)
