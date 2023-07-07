@@ -44,6 +44,7 @@
 - [[UIKit] Default status bar style](./swift5.9/default-status-bar-style.md)
 - [[UIKit] Internationalization](./swift5.9/internationalization.md)
 - [[UIKit] Represent fractional page progress](./swift5.9/represent-fractional-page-progress.md)
+- [[UIKit] Spring animation parameters](./swift5.9/spring-animation-parameters.md)
 - [[UIKit] viewIsAppearing](./swift5.9/view-is-appearing.md)
 - [[Xcode 15] Bookmark Navigator](./swift5.9/bookmark-navigator.md)
 - [[Xcode 15] Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
