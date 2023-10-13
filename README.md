@@ -40,6 +40,7 @@
 - [[SE-0377], [SE-0390] 2. Suppressing `deinit` in a `consuming` method](./swift5.9/suppressing-deinit-in-a-consuming-method.md)(WIP)
 - [[SE-0366] 3. `consume` operator to end the lifetime of a variable binding](./swift5.9/consume-operator-to-end-the-lifetime-of-a-variable-binding.md)(WIP)
 - [[SE-0380] Using if/else and switch statements as expressions](./swift5.9/using-if-else-and-switch-statements-as-expressions.md)
+- [[SE-0393], [SE-0398], [SE-0399] Value and type parameter packs](./swift5.9/value-and-type-parameter-packs.md)
 - [[UIKit] Empty states](./swift5.9/empty-states.md)
 - [[UIKit] Default status bar style](./swift5.9/default-status-bar-style.md)
 - [[UIKit] Internationalization](./swift5.9/internationalization.md)
