@@ -12,7 +12,7 @@
 <img src="https://github.com/anjaeyoung26/GithubActions/assets/61190690/8e08b681-cfff-4d5c-98bc-9940e52aa5b4" width="700">
 </p>
 
-이를 해결하기 위해 Status bar가 표시되는 방식이 개선되어 컨텐츠와 대비되는 색으로 표시된다. 심지어 Status bar의 왼쪽과 오른쪽이 별도로 변경된다.
+iOS 17+부터 Status bar가 표시되는 방식이 개선되어 컨텐츠와 대비되는 색으로 표시된다. 심지어 Status bar의 왼쪽과 오른쪽이 별도로 변경된다.
 
 <p align="center">
 <img src="https://github.com/anjaeyoung26/GithubActions/assets/61190690/57e4c0ab-e52e-4692-afe9-76b9eaf11368" width="700">
