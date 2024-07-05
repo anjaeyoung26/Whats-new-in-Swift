@@ -1,10 +1,10 @@
 ## UIPageControl
 
-iOS 16 버전에서 추가된 `UIPageControl`의 새로운 기능을 알아보자. 자세한 내용은 WWDC22의 [What's new in UIKit](https://developer.apple.com/videos/play/wwdc2022/10068/)에서 살펴볼 수 있다.
+iOS 16에서 `UIPageControl`의 새로운 기능을 알아보자. 자세한 내용은 WWDC22의 [What's new in UIKit](https://developer.apple.com/videos/play/wwdc2022/10068/)에서 살펴볼 수 있다.
 
 ### preferredCurrentPageIndicatorImage
 
-iOS 14 버전 부터 `preferredIndicatorImage`를 통해 인디게이터의 이미지를 설정할 수 있었다. 이를 확장시켜 iOS 16버전 부터는 현재 선택된 페이지를 나타내는 인디게이터에 또 다른 이미지를 설정할 수 있다.
+iOS 14부터 `preferredIndicatorImage`를 통해 인디게이터의 이미지를 설정할 수 있었다. 이를 확장시켜 iOS 16부터는 현재 선택된 페이지를 나타내는 이미지를 별도로 설정할 수 있다:
 
 ```swift
 pageControl.preferredCurrentPageIndicatorImage = UIImage(systemName: "star.fill")
@@ -13,11 +13,11 @@ pageControl.preferredIndicatorImage = UIImage(systemName: "star")
 
 ### Direction
 
-iOS 16부터는 원하는 인디게이터 배치 방향을 선택할 수 있다.
+iOS 16부터는 인디게이터의 배치 방향을 선택할 수 있다.
 
 ```swift
 enum Direction: Int {
-  case natural // Locale에 따라 `leftToRight` 혹은 `rightToLeft`가 설정된다.
+  case natural     // Locale에 따라 `leftToRight` 혹은 `rightToLeft`가 설정된다.
   case leftToRight // 첫 번째 인디게이터가 맨 왼쪽에, 마지막 인디게이터가 맨 오른쪽에 위치한다.
   case rightToLeft // `leftToRight`와 반대로 위치한다.
   case topToBottom // 첫 번째 인디게이터가 맨 윗쪽에, 마지막 인디게이터가 맨 아래쪽에 위치한다.
