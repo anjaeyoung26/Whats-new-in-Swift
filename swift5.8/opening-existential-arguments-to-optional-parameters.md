@@ -1,6 +1,6 @@
 ## Opening existential arguments to optional parameters
 
-[SE-0375](https://github.com/apple/swift-evolution/blob/main/proposals/0375-opening-existential-optional.md)는 프로토콜을 사용하여 Generic 함수를 호출할 수 있게 해주는 Swift 5.7 기능을 확장한다. 해당 기능은 [SE-0352](https://github.com/apple/swift-evolution/blob/main/proposals/0352-implicit-open-existentials.md)의 [Implicitly opened existentials](https://github.com/anjaeyoung26/WWDC/blob/main/WWDC22/implicitly-opened-existentials.md)으로 아래와 같은 코드를 작성할 수 있게 한다.
+[SE-0375](https://github.com/apple/swift-evolution/blob/main/proposals/0375-opening-existential-optional.md)는 프로토콜로 generic 함수를 호출할 수 있게 하는 기능을 확장한다. 해당 기능은 Swift 5.7의 [SE-0352](https://github.com/apple/swift-evolution/blob/main/proposals/0352-implicit-open-existentials.md)의 [Implicitly opened existentials](https://github.com/anjaeyoung26/WWDC/blob/main/WWDC22/implicitly-opened-existentials.md)으로 아래와 같은 코드를 작성할 수 있게 한다:
 
 ```swift
 func double<T: Numeric>(_ number: T) -> T {
@@ -18,7 +18,7 @@ for number in numbers {
 }
 ```
 
-하지만 Swift 5.7에서 파라미터를 옵셔널이면 동작하지 않는 성가신 문제가 있다.
+Swift 5.7에서 매개변수가 Optional이면 동작하지 않는 문제가 있었지만, Swift 5.8은 기능을 확장시켜 동작할 수 있도록 한다.
 
 ```swift
 func optionalDouble<T: Numeric>(_ number: T?) -> T {
@@ -30,5 +30,3 @@ for number in numbers {
   print(optionalDouble(number)) // “Type 'any Numeric' cannot conform to 'Numeric’”
 }
 ```
-
-Swift 5.8은 기능을 확장해서 이러한 문제를 해결했다.
