@@ -56,3 +56,4 @@
 - [[SE-0409] Access-level modifiers on import declarations](./swift6.0/access-level-modifiers-import.md)
 - [[SE-0220] count(where:)](./swift6.0/count-where.md)
 - [[SE-0408] Pack iteration](./swift6.0/pack-iteration.md)
+- [[SE-0413] Typed throws](./swift6.0/typed-throws.md)
