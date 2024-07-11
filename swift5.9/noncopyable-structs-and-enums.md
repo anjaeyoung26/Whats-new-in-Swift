@@ -28,6 +28,29 @@ print(newUser.name) // 컴파일 에러
 ```
 
 &nbsp;
+## Deinitializers
+
+noncopyable 타입은 클래스와 같이 `deinit`을 정의할 수 있다. `denit`은 해당 타입이 consume되어 수명이 끝나면 암시적으로 실행된다.
+
+```swift
+struct Inner: ~Copyable {
+  deinit { print("deinit inner") }
+}
+
+struct Outer: ~Copyable {
+  deinit { print("deinit outer") }
+}
+
+do {
+  _ = Outer()
+}
+
+// Prints
+// destroying outer
+// destroying inner
+```
+
+&nbsp;
 ## Borrowing
 
 [SE-0377](https://github.com/apple/swift-evolution/blob/main/proposals/0377-parameter-ownership-modifiers.md)은 noncopyable 타입을 어떤 방식으로 사용할지 정하는 modifier를 소개한다. 우선 `borrowing` 부터 살펴보자.
