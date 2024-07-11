@@ -54,6 +54,7 @@
 &nbsp;
 # Swift 6.0
 - [[SE-0409] Access-level modifiers on import declarations](./swift6.0/access-level-modifiers-import.md)
+- [[SE-0270] Add Collection Operations on Noncontiguous Elements](./swift6.0/collection-operations-on-noncontiguous-elements.md)
 - [[SE-0220] count(where:)](./swift6.0/count-where.md)
 - [[SE-0408] Pack iteration](./swift6.0/pack-iteration.md)
 - [[SE-0413] Typed throws](./swift6.0/typed-throws.md)
