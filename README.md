@@ -50,3 +50,7 @@
 - [[Xcode 15] Debug with structured logging](./swift5.9/debug-with-structured-logging.md)
 - [[Xcode 15] #Preview macro](./swift5.9/preview-macro.md)
 - [[Xcode 15] Symbols for the asset catalog](./swift5.9/symbols-for-the-asset-catalog.md)
+
+&nbsp;
+# Swift 6.0
+- [[SE-0409] Access-level modifiers on import declarations](./swift6.0/access-level-modifiers-import.md)
