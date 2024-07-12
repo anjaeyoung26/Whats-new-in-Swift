@@ -58,6 +58,7 @@
 - [[SE-0220] count(where:)](./swift6.0/count-where.md)
 - [[SE-0425] 128-bit Integer Types](./swift6.0/int128.md)
 - [[SE-0427] Noncopyable Generics](./swift6.0/noncopyable-generics.md)
+- [[SE-0432] Noncopyable Switch](./swift6.0/noncopyable-switch.md)
 - [[SE-0408] Pack iteration](./swift6.0/pack-iteration.md)
 - [[SE-0429] Partial Consumption](./swift6.0/partial-consumption.md)
 - [[SE-0413] Typed throws](./swift6.0/typed-throws.md)
