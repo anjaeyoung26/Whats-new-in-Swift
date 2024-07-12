@@ -1,6 +1,6 @@
 ## Access-level modifiers on import declarations
 
-[SE-0409](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0409-access-level-on-imports.md)는 import에서 접근 제어자를 사용할 수 있는 기능을 제안한다.
+[SE-0409](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0409-access-level-on-imports.md)는 import에서 접근 제어자를 사용할 수 있는 기능을 제안합니다.
 
 ```swift
 // 명시할 수 있는 접근 제어자는 총 5가지이며 `open`은 사용할 수 없습니다.
